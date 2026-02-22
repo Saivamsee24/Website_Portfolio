@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Animate all main sections, cards, timeline-content, and activities-subsection
   const revealEls = document.querySelectorAll(
-    'section, .profile-section, .two-column-section, .card, .timeline-content, .activities-subsection'
+    'section, .profile-section, .two-column-section, .card, .timeline-content, .project-box, .activities-subsection'
   );
   revealEls.forEach((el) => {
     el.classList.add('scroll-reveal');
